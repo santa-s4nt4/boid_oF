@@ -22,6 +22,13 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+
+		// ŒÂ‘Ì‚ÌŒQ‚ê‚ğ4‚ÂéŒ¾
+		vector<bird>birds1;
+		vector<bird>birds2;
+		vector<bird>birds3;
+		vector<bird>birds4;
+		vector<bird>nullBirds;
 		
 		bool active; //“®‚«‚Ì§Œä
 };
